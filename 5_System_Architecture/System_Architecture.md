@@ -1,17 +1,30 @@
-# System Architecture
+<div align="center">
 
-This section details the technical framework, AI components, data flows, and security architecture for our AI-powered corporate tax consulting solution.
+# ⚙️ System Architecture
 
-## Table of Contents
-- [Architectural Overview](#architectural-overview)
-- [Core Components](#core-components)
-- [AI Engine Architecture](#ai-engine-architecture)
-- [Data Flow & Processing](#data-flow--processing)
-- [Integration Architecture](#integration-architecture)
-- [Security Framework](#security-framework)
-- [Scalability & Performance](#scalability--performance)
+<img src="https://img.icons8.com/?size=512&id=42160&format=png" width="120">
 
-## Architectural Overview
+*Cutting-edge AI technology meets enterprise-grade infrastructure*
+
+</div>
+
+<details>
+<summary><b>📗 Table of Contents</b></summary>
+
+- [🏗️ Architectural Overview](#%EF%B8%8F-architectural-overview)
+- [🧩 Core Components](#-core-components)
+- [🧠 AI Engine Architecture](#-ai-engine-architecture)
+- [🔄 Data Flow & Processing](#-data-flow--processing)
+- [🔌 Integration Architecture](#-integration-architecture)
+- [🔒 Security Framework](#-security-framework)
+- [⚡ Scalability & Performance](#-scalability--performance)
+</details>
+
+---
+
+## 🏗️ Architectural Overview
+
+> "Our cloud-native architecture provides the foundation for scalable, secure, and intelligent tax services."
 
 Our system architecture follows a modern, cloud-native approach with microservices, containerization, and a multi-tiered AI strategy:
 
@@ -105,7 +118,9 @@ graph TB
     F1 --> F5
 ```
 
-## Core Components
+## 🧩 Core Components
+
+> "Modular components working in concert to deliver a comprehensive tax intelligence platform."
 
 ### Component Architecture
 
@@ -152,7 +167,9 @@ flowchart TD
 | **AI Orchestration** | Coordinates AI services | MLflow, KubeFlow, Python | Model selection, inference routing, ensemble methods |
 | **Data Access Layer** | Data persistence & retrieval | ORM, GraphQL, REST | Data CRUD operations, consistency, caching |
 
-## AI Engine Architecture
+## 🧠 AI Engine Architecture
+
+> "Specialized AI models working together to tackle the complexity of corporate taxation."
 
 Our AI architecture employs a multi-tier approach with specialized models for different tax functions:
 
@@ -214,7 +231,9 @@ graph TD
 | **Regulatory Compliance** | Identify compliance requirements and risks | Ensemble models with rule systems | Regulatory text, jurisdictional data, client facts | Compliance requirements, risk scores | Recall: 95%+ |
 | **Forecasting Models** | Predict tax liabilities and opportunities | Time series + causal models | Historical tax data, economic indicators | Tax projections, scenario analysis | MAPE: <5% |
 
-## Data Flow & Processing
+## 🔄 Data Flow & Processing
+
+> "Secure, efficient data pipelines transforming raw information into actionable tax insights."
 
 The end-to-end data flow architecture through our system:
 
@@ -296,7 +315,9 @@ graph LR
     E --> E3[Human Feedback]
 ```
 
-## Integration Architecture
+## 🔌 Integration Architecture
+
+> "Seamless connections with client systems and external services for frictionless adoption."
 
 Our integration architecture enables seamless connection with client systems and external services:
 
@@ -364,7 +385,9 @@ graph TB
 | **Document Exchange** | Secure document transfer | SFTP, Secure API, Webhook | Bi-directional document flows with chain of custody |
 | **Event-Driven** | Real-time updates and notifications | Kafka, RabbitMQ, Event Grid | Publish-subscribe architecture for system events |
 
-## Security Framework
+## 🔒 Security Framework
+
+> "Enterprise-grade security protecting sensitive tax data at every layer of our platform."
 
 Comprehensive security architecture to protect sensitive tax and financial data:
 
@@ -417,7 +440,9 @@ flowchart TD
 | **Infrastructure Security** | • Defense-in-depth<br>• Network Segmentation<br>• Monitoring & Detection<br>• Secure Cloud Configuration | • Cloud security architecture<br>• Micro-segmentation<br>• SIEM integration<br>• Infrastructure as Code scanning | CIS Benchmarks, ISO 27017 |
 | **Compliance** | • Regulatory Compliance<br>• Audit Readiness<br>• Control Framework<br>• Certification Maintenance | • Compliance monitoring<br>• Automated evidence collection<br>• Control mapping<br>• Regular assessments | SOC 2, ISO 27001, GDPR |
 
-## Scalability & Performance
+## ⚡ Scalability & Performance
+
+> "Designed for speed and growth, from startups to global enterprises."
 
 Architecture designed for elastic scalability and high performance:
 
